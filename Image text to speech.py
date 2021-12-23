@@ -1,7 +1,7 @@
 
 import easyocr
 
-image_path = 'b.jpg'
+image_path = 'd0.jpg'
 reader = easyocr.Reader(['en'],  gpu=False)  # need to run only once to load model into memory
 result = reader.readtext(image_path, detail=0)
 
